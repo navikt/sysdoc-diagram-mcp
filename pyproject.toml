@@ -1,0 +1,27 @@
+[project]
+name = "sysdoc-diagram-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Espen Holtebu", email = "espen.holtebu@nav.no" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mcp>=2.3.0",
+    "pydantic>=2.14.1",
+]
+
+[project.scripts]
+sysdoc-diagram-mcp = "sysdoc_diagram_mcp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.414",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
