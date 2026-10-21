@@ -15,7 +15,7 @@ The server is written in Python using the official `mcp` SDK. Graphviz is requir
 - [x] Add dev dependencies: `pytest`, `ruff`, `pyright` or `mypy`
 - [x] Package layout: `src/diagram_agent/`, `tests/`
 - [x] Document Graphviz installation (`dot` on `PATH`) in readme
-- [ ] CI workflow running lint, type check and tests (with Graphviz installed)
+- [x] CI workflow running lint, type check and tests (with Graphviz installed)
 - [x] `.gitignore` for Python artifacts
 
 ## Acceptance criteria  
